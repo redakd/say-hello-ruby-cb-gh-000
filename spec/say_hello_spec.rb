@@ -8,7 +8,7 @@ describe "say_hello" do
     say_hello("Ruby Programmer")
   end
 
-  it 'defaults to Ruby Programmer when no name is passed in' do
+  it 'defaults to Kent Beck when no name is passed in' do
     expect($stdout).to receive(:puts).with("Hello Kent Beck!")
     say_hello()
   end
